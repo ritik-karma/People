@@ -11,6 +11,7 @@
 		F8A374292C9808CE00754EDF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A374282C9808CE00754EDF /* ContentView.swift */; };
 		F8A3742B2C9808CF00754EDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8A3742A2C9808CF00754EDF /* Assets.xcassets */; };
 		F8A3742E2C9808CF00754EDF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8A3742D2C9808CF00754EDF /* Preview Assets.xcassets */; };
+		F8A374382C98113600754EDF /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A374372C98113600754EDF /* Theme.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		F8A374282C9808CE00754EDF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F8A3742A2C9808CF00754EDF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F8A3742D2C9808CF00754EDF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F8A374372C98113600754EDF /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,9 @@
 		F8A374252C9808CE00754EDF /* People */ = {
 			isa = PBXGroup;
 			children = (
+				F8A3743A2C98160900754EDF /* Features */,
+				F8A374392C98160300754EDF /* Base */,
+				F8A374342C9809FE00754EDF /* Resources */,
 				F8A374262C9808CE00754EDF /* PeopleApp.swift */,
 				F8A374282C9808CE00754EDF /* ContentView.swift */,
 				F8A3742A2C9808CF00754EDF /* Assets.xcassets */,
@@ -65,6 +70,124 @@
 				F8A3742D2C9808CF00754EDF /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F8A374342C9809FE00754EDF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F8A374372C98113600754EDF /* Theme.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F8A374392C98160300754EDF /* Base */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		F8A3743A2C98160900754EDF /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				F8A3743E2C98164400754EDF /* Details */,
+				F8A3743D2C98163E00754EDF /* Settings */,
+				F8A3743C2C98162500754EDF /* Create */,
+				F8A3743B2C98161D00754EDF /* People */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		F8A3743B2C98161D00754EDF /* People */ = {
+			isa = PBXGroup;
+			children = (
+				F8A374412C98169D00754EDF /* ViewModels */,
+				F8A374402C98169800754EDF /* Views */,
+				F8A3743F2C98169400754EDF /* Models */,
+			);
+			path = People;
+			sourceTree = "<group>";
+		};
+		F8A3743C2C98162500754EDF /* Create */ = {
+			isa = PBXGroup;
+			children = (
+				F8A374462C98173300754EDF /* ViewModels */,
+				F8A374452C98172D00754EDF /* Models */,
+				F8A374442C98172500754EDF /* Views */,
+			);
+			path = Create;
+			sourceTree = "<group>";
+		};
+		F8A3743D2C98163E00754EDF /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				F8A374422C98171B00754EDF /* Views */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		F8A3743E2C98164400754EDF /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				F8A374472C98173F00754EDF /* Views */,
+			);
+			path = Details;
+			sourceTree = "<group>";
+		};
+		F8A3743F2C98169400754EDF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F8A374402C98169800754EDF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F8A374412C98169D00754EDF /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		F8A374422C98171B00754EDF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F8A374442C98172500754EDF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F8A374452C98172D00754EDF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F8A374462C98173300754EDF /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		F8A374472C98173F00754EDF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8A374382C98113600754EDF /* Theme.swift in Sources */,
 				F8A374292C9808CE00754EDF /* ContentView.swift in Sources */,
 				F8A374272C9808CE00754EDF /* PeopleApp.swift in Sources */,
 			);
